@@ -57,6 +57,7 @@
                 flex-direction: column;
                 gap: 30px;
                 padding: 20px;
+                margin-left: 100px;
 
                 h2{
                     font-size: 36px;
@@ -87,7 +88,7 @@
     }
 }
 
-@media (max-width:1300px) {
+@media (max-width:1920px) {
     .portfolio {
         position: relative;
     

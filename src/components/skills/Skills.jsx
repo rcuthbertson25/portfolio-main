@@ -58,24 +58,24 @@ const Skills = () => {
                 <div className="section">
                     <h2>Tools/Control</h2>
                     <ul>
-                        <li>Git</li>
-                        <li>Linux</li>
-                        <li>MongoDB</li>
+                        <li>Git (+GitHub)</li>
+                        <li>Linux (Ubuntu)</li>
+                        <li>AWS (EC2, S3, RDS, Lambda)</li>
                     </ul>
                 </div>
                 <div className="section">
                     <h2>Languages</h2>
                     <ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C</li>
+                        <li>Python, SQL</li>
+                        <li>Java, JavaScript</li>
+                        <li>C, C#</li>
                     </ul>
                 </div>
                 <div className="section">
                     <h2>Frameworks</h2>
                     <ul>
-                        <li>React</li>
-                        <li>Node.js</li>
+                        <li>.NET</li>
+                        <li>Bootstrap</li>
                         <li>Express.js</li>
                     </ul>
                 </div>
