@@ -61,7 +61,7 @@ const Hero = () => {
                 Full Stack Developer
             </motion.div>
             <div className="imageContainer">
-                <img src="/header-img.svg" alt="" />
+                <img src="/gitpic.png" alt="" />
             </div>
         </div>
     )
