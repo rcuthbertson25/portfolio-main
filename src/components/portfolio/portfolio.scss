@@ -102,7 +102,7 @@
             font-size: 30px;
 
             @include mobile{
-                padding-top: calc(100vh - 100px);
+                padding-top: 300px;
                 font-size: 24px;
             }
     
@@ -151,7 +151,7 @@
                     @include mobile{
                         width: 100%;
                         max-height: 300px;
-                        margin-top: 0px;
+                        margin-top: 100px;
                         height: 50%;
                     }
     
@@ -178,12 +178,13 @@
                         transform: none !important;
                         padding: 10px;
                         padding-top: 0px;
-                        margin-top:-35px;
+                        margin-top: 0px;
                         align-items: center;
                         text-align: center;
                         gap: 30px;
                         margin-right: 0px;
                         padding-left: 0px;
+                        margin-left: 0px;
                     }
     
                     h2{
@@ -209,6 +210,11 @@
                         width: 200px;
                         text-decoration: none;
                         text-align: center;
+
+                        @include mobile{
+                            display: inline-block;
+                            cursor: pointer;
+                        }
                     }
                     .button-gray{
                         background-color: gray;

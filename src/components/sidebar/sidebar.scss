@@ -80,6 +80,10 @@
                 align-items: center;
                 justify-content: center;
                 gap: 20px;
+
+                @include mobile {
+                    margin-top: -350px;
+                }
     
                 a{
                     font-size: 30px;

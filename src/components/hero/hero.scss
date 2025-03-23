@@ -28,19 +28,21 @@
                 font-size: 88px;
             }
 
-            .buttons{
-                button, a{
-                    padding: 20px;
-                    border: 1px solid white;
-                    border-radius: 10px;
-                    background-color: transparent;
-                    color: white;
-                    margin-right: 20px;
-                    cursor: pointer;
-                    font-weight: 300;
-                }
+            .buttons a {
+                padding: 20px;
+                border: 1px solid white;
+                border-radius: 10px;
+                background-color: transparent;
+                color: white;
+                margin-right: 20px;
+                cursor: pointer;
+                font-weight: 300;
             }
 
+            .buttons a:hover {
+                background-color: white;
+                color: rebeccapurple;
+            }
 
             img{
                 width: 50px;
@@ -66,7 +68,7 @@
     }
 
 }
-@media (max-width:1300px) {
+@media (max-width:1920px) {
     .hero{
         height: calc(100vh - 100px);
         overflow: hidden;

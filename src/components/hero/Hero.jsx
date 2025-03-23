@@ -1,6 +1,6 @@
+import { Link } from "react-scroll"
 import "./hero.scss"
 import { motion } from "framer-motion"
-import { Link } from "react-scroll/modules"
 
 const textVariants = {
     initial: {
