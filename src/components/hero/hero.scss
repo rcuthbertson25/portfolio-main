@@ -34,7 +34,6 @@
                 border-radius: 10px;
                 background-color: transparent;
                 color: white;
-                margin-right: 20px;
                 cursor: pointer;
                 font-weight: 300;
             }
@@ -109,6 +108,10 @@
                     font-size: 25px;
                     color: rebeccapurple;
                     letter-spacing: 10px;
+
+                    @include mobile{
+                        margin-left: 8px;
+                    }
                 }
     
                 h1{
@@ -120,7 +123,13 @@
                     }
                 }
     
-                .buttons{
+                .buttons {
+                    @include mobile {
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+                    }
+
                     button, a{
                         padding: 20px;
                         border: 1px solid white;
@@ -130,15 +139,22 @@
                         margin-right: 20px;
                         cursor: pointer;
                         font-weight: 300;
+
+                        @include mobile{
+                            margin-right: 0px;
+                            width: 150px;
+                            height: 50px;
+                            padding: 0;
+                            display: flex;
+                            align-items: center;
+                            text-wrap: nowrap;
+                            justify-content: center;
+                        }
                     }
                 }
 
                 .scroll{
                     margin-top: 20px;
-
-                    @include mobile{
-                        margin-top: 20px;      
-                    }
                 }
     
                 img{
