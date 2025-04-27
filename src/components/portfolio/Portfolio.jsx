@@ -5,30 +5,38 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion'
 const items = [
     {
         id: 1,
-        title: "React Delivery App",
+        title: "Food Delivery App",
         img: "./tomato_app.png",
         desc: "Full-stack responsive delivery app with login/signup, order placement via Stripe, and tracking. Includes admin panel for MongoDB database management.",
         demo: 'true'
     },
     {
         id: 2,
+        title: "Smart Trips",
+        img: "./ai-planner-home-2.png",
+        desc: "React travel planning app which uses Gemini AI to create a full travel itinerary including hotel options depending on the user's needs. Incorporates Google Authorization, Place, and Gemini AI APIs.",
+        demo: 'true'
+    },
+    {
+        id: 3,
+        title: "Venture",
+        img: "./venture.png",
+        desc: "React app built with NextJS which allows users to search and explore hotels, restaurants, and attractions in any city. Utilizes Google Places API for data retrieval.",
+        demo: 'true'
+    },
+    {
+        id: 4,
         title: "React Fitness App",
         img: "./fitness.png",
         desc: "Static fitness web app with captivating animations and a responsive user experience across all devices. Web/mobile UX preview available on LinkedIn",
         demo: 'false'
     },
-    {
-        id: 3,
-        title: "AI Travel App",
-        img: "./ai-planner-home-2.png",
-        desc: "React travel planning app which uses Gemini AI to create a full travel itinerary including hotel options depending on the user's needs. Incorporates Google Authorization, Place, and Gemini AI APIs.",
-        demo: 'true'
-    }
 ]
 
 const urlMap = {
-    'React Delivery App': 'https://food-del-frontend-0ont.onrender.com/',
-    'AI Travel App': 'https://ai-travel-planner-iota.vercel.app/'
+    'Food Delivery App': 'https://food-del-frontend-0ont.onrender.com/',
+    'Smart Trips': 'https://ai-travel-planner-iota.vercel.app/',
+    'Venture': 'https://venture-three-tan.vercel.app/'
     // Add more mappings as needed
   };
 
