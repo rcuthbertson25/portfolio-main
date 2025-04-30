@@ -26,6 +26,13 @@ const items = [
     },
     {
         id: 4,
+        title: "Stretch Application Board",
+        img: "./CAPSTONE_EXAMPLE.png",
+        desc: "Full-stack internal application with PSU SSO login, role-based access, and assignment submission workflow. Features secure backend using ASP.NET Web Forms and SQL Server, with admin dashboard for tracking and managing user requests.",
+        demo: 'false'
+    },
+    {
+        id: 5,
         title: "React Fitness App",
         img: "./fitness.png",
         desc: "Static fitness web app with captivating animations and a responsive user experience across all devices. Web/mobile UX preview available on LinkedIn",
