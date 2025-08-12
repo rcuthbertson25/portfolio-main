@@ -19,6 +19,7 @@ const App = () => {
     <section><Skills/></section>
     <section id="Portfolio"><Parallax type="portfolio"/></section>
     <Portfolio/>
+    <section id="Career"><Parallax type="career"/></section>
     <section id="Contact"><Contact/></section>
   </div>;
 };
