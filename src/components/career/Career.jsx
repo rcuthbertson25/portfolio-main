@@ -25,20 +25,33 @@ const Career = () => {
       <div className="cards">
         <div className="card">
           <h3>User Management</h3>
-          <p>Managed user accounts, roles, and permission sets to ensure secure and efficient access to Salesforce data.</p>
+          <p>Managed user accounts, roles, and permission sets to ensure secure and efficient access to Salesforce data.</p>   
+          <img src="/public/user-management.webp" alt="User Management Icon" className="icon" />
         </div>
         <div className="card">
-          <h3>Data Integrity</h3>
-          <p>Performed regular data audits, deduplication, and validation rule setup to maintain data accuracy and consistency.</p>
+          <h3>Data Operations</h3>
+          <p>Managed data imports, exports, and mass updates; supported data quality through regular queries, validations, and workflow automation.</p>
+          <img src="/public/data.webp" alt="Data Operations Icon" className="icon" />
         </div>
         <div className="card">
           <h3>Automation</h3>
           <p>Built and maintained workflows, process builders, and flows to automate routine tasks and improve team productivity.</p>
+          <img src="/public/flow.webp" alt="Automation Icon" className="icon" />
         </div>
         <div className="card">
           <h3>Reporting</h3>
           <p>Created custom reports and dashboards to support business decision-making and track key performance indicators (KPIs).</p>
+          <img src="/public/report.webp" alt="Reporting Icon" className="icon" />
         </div>
+      </div>
+      <div className="skill-section">
+        <h3>Communication</h3>
+        <h3>Problem Solving</h3>
+        <h3>Flows</h3>
+        <h3>SOQL</h3>
+        <h3>Data Analysis</h3>
+        <h3>Configuration</h3>
+        <h3>Security</h3>
       </div>
     </div>
   );
