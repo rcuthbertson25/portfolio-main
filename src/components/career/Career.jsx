@@ -44,15 +44,6 @@ const Career = () => {
           <img src="./report.webp" alt="Reporting Icon" className="icon" />
         </div>
       </div>
-      <div className="skill-section">
-        <h3>Communication</h3>
-        <h3>Problem Solving</h3>
-        <h3>Flows</h3>
-        <h3>SOQL</h3>
-        <h3>Data Analysis</h3>
-        <h3>Configuration</h3>
-        <h3>Security</h3>
-      </div>
     </div>
   );
 };

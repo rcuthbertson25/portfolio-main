@@ -7,6 +7,7 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 import Career from "./components/career/Career";
+import Education from "./components/education/Education";
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
       <Navbar/>
       <Hero/>
     </section>
+    <section id="Education"><Parallax type="education"/></section>
+    <section><Education /></section>
     <section id="Skills"><Parallax type="services"/></section>
     <section><Skills/></section>
     <section id="Portfolio"><Parallax type="portfolio"/></section>
